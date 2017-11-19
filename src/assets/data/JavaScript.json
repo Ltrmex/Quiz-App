@@ -1,0 +1,66 @@
+{
+    "questions": [
+ 
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "'concat()'",
+            "answerCardFlipped": false,
+            "questionText": "Which built-in method combines the text of two strings and returns a new string?",
+            "answers": [
+                {"answer": "concat()", "correct": true, "selected": false},
+                {"answer": "append()", "correct": false, "selected": false},
+                {"answer": "attach()", "correct": false, "selected": false},
+                {"answer": "join()", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "'var book = new Object();'",
+            "answerCardFlipped": false,
+            "questionText": "Which of the following code creates an object?",
+            "answers": [
+                {"answer": "var book = Object();", "correct": false, "selected": false},
+                {"answer": "var book = new Object();", "correct": true, "selected": false},
+                {"answer": "var book = new Book();", "correct": false, "selected": false},
+                {"answer": "var book = new OBJECT();", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "'valueOf()'",
+            "answerCardFlipped": false,
+            "questionText": "Which function of String object returns the primitive value of the specified object?",
+            "answers": [
+                {"answer": "toLocaleUpperCase()", "correct": false, "selected": false},
+                {"answer": "toUpperCase()", "correct": false, "selected": false},
+                {"answer": "valueOf()", "correct": true, "selected": false},
+                {"answer": "toString()", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "'pop()'",
+            "answerCardFlipped": false,
+            "questionText": "Which function of Array object removes the last element from an array and returns that element?",
+            "answers": [
+                {"answer": "push()", "correct": false, "selected": false},
+                {"answer": "map()", "correct": false, "selected": false},
+                {"answer": "pop()", "correct": true, "selected": false},
+                {"answer": "join()", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "'reverse()'",
+            "answerCardFlipped": false,
+            "questionText": "Which built-in method reverses the order of the elements of an array?",
+            "answers": [
+                {"answer": "changeOrder(order)", "correct": false, "selected": false},
+                {"answer": "turnAround()", "correct": false, "selected": false},
+                {"answer": "reverse()", "correct": true, "selected": false},
+                {"answer": "sort(order)", "correct": false, "selected": false}
+            ]
+        }
+ 
+    ]
+}

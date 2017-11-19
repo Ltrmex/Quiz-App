@@ -1,0 +1,66 @@
+{
+    "questions": [
+ 
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "rewrite of Ionic 1",
+            "answerCardFlipped": false,
+            "questionText": "What is Ionic 2?",
+            "answers": [
+                {"answer": "rewrite of Ionic 1", "correct": true, "selected": false},
+                {"answer": "copy of Ionic 1", "correct": false, "selected": false},
+                {"answer": "upgrade of Ionic 1", "correct": false, "selected": false},
+                {"answer": "none listed", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "ionic start myBlankApp blank –v2",
+            "answerCardFlipped": false,
+            "questionText": "How to create new project?",
+            "answers": [
+                {"answer": "ionic open myBlankApp blank –v2", "correct": false, "selected": false},
+                {"answer": "ionic start myBlankApp blank –v2", "correct": true, "selected": false},
+                {"answer": "ionic create myBlankApp blank –v2", "correct": false, "selected": false},
+                {"answer": "ionic generate myBlankApp blank", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "ionic generate page MyPage",
+            "answerCardFlipped": false,
+            "questionText": "How to generate page?",
+            "answers": [
+                {"answer": "create page MyPage", "correct": false, "selected": false},
+                {"answer": "ionic create page MyPage", "correct": false, "selected": false},
+                {"answer": "ionic generate page MyPage", "correct": true, "selected": false},
+                {"answer": "generate page MyPage", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "ionic g component Component",
+            "answerCardFlipped": false,
+            "questionText": "How to create new component?",
+            "answers": [
+                {"answer": "ionic gene component Component", "correct": false, "selected": false},
+                {"answer": "ionic generate component Component", "correct": false, "selected": false},
+                {"answer": "ionic create component Component", "correct": true, "selected": false},
+                {"answer": "none listed", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "ionic g provider Provider",
+            "answerCardFlipped": false,
+            "questionText": "How to create provider?",
+            "answers": [
+                {"answer": "ionic g provide Provider", "correct": false, "selected": false},
+                {"answer": "ionic c provider Provider", "correct": false, "selected": false},
+                {"answer": "ionic g provider Provider", "correct": true, "selected": false},
+                {"answer": "none listed", "correct": false, "selected": false}
+            ]
+        }
+ 
+    ]
+}

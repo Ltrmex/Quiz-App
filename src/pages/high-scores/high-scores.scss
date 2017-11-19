@@ -1,0 +1,28 @@
+page-high-scores {
+    ion-header {
+        text-align: center;
+
+    }
+
+    img {
+        float: left; 
+        position: static;
+    }
+
+    strong {
+        color: gold;
+    }
+
+    .sl {
+        text-align: center;
+    }
+
+    button {
+        float: right;
+    }
+
+    .center {
+        position: relative;
+        left: 5px;
+    }
+}

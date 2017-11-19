@@ -1,0 +1,124 @@
+<ion-header>
+    <ion-navbar color="danger">
+        <ion-title>AskeMe</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+<!-- Slides component -->
+    <ion-slides #slides [options]="slideOptions">
+
+        <!-- First slide with just start button which brings user to the next slide -->
+        <ion-slide class="centerlize">
+            <button ion-button icon-left icon-right color="danger" (click)="getLocation()" (click)="nextSlide()">
+                <ion-icon name="star"></ion-icon>
+                    Start!
+                <ion-icon name="star"></ion-icon>
+            </button>
+        </ion-slide>
+
+        <!-- Slide for user information & settings -->
+        <ion-slide>
+            <ion-card>
+                <ion-card-header><strong>Player Information</strong></ion-card-header>
+                <ion-card-content>
+
+                    <ion-grid>
+
+                        <ion-row>
+                            <!-- Row where user can take a picture -->
+                            <ion-col>                    
+                                <img [src]="base64Image" *ngIf="base64Image" />  
+                                <button ion-button full icon-left icon-right color="dark" (click)="takePicture()">
+                                    <ion-icon name="camera"></ion-icon>
+                                        Take a Picture!
+                                    <ion-icon name="camera"></ion-icon>
+                                </button>
+                            </ion-col>
+                        </ion-row>  
+                        
+                        <!-- Row where user can input their username and age -->
+                        <ion-row>
+                            <ion-col width-50>                    
+                                <ion-list>
+                                    <ion-item>
+                                        <ion-label stacked>Username</ion-label> <!-- Username input -->
+                                        <ion-input [(ngModel)]="username" type="text"></ion-input>
+                                    </ion-item>
+                                </ion-list>
+                            </ion-col>
+
+                            <ion-col width-50>    
+                                <ion-list>
+                                    <ion-item>
+                                        <ion-label stacked>Age</ion-label>  <!-- Age input -->
+                                        <ion-input [(ngModel)]="age" type="number"></ion-input>
+                                    </ion-item>
+                                </ion-list>
+                            </ion-col>
+                        </ion-row>
+
+                        <!-- Row where user can choose which quiz he/she would like to take -->
+                        <ion-row>
+                            <ion-col>
+                                <ion-list>
+                                    <ion-item color="danger">
+                                        <ion-label>Quiz</ion-label>
+                                        <ion-select [(ngModel)]="quiz"> <!-- Select allows to choose between different options -->
+                                            <ion-option value="HTML">HTML</ion-option>
+                                            <ion-option value="CSS">CSS</ion-option>
+                                            <ion-option value="JavaScript">JavaScript</ion-option>
+                                            <ion-option value="TypeScript">TypeScript</ion-option>
+                                            <ion-option value="Ionic 2">Ionic 2</ion-option>
+                                            <ion-option value="Java">Java</ion-option>
+                                            <ion-option value="C">C</ion-option>
+                                        </ion-select>
+                                    </ion-item>
+                                </ion-list>
+                            </ion-col>
+                        </ion-row>
+                    </ion-grid>
+
+                    <!-- Triggers changeQuiz() of quiz and nextSlide() functions -->
+                    <button ion-button full icon-left icon-right color="dark" (click)="nextSlide()" (click)="changeQuiz(quiz)">
+                        <ion-icon name="star"></ion-icon>   <!-- Star on either ends of the button -->
+                            Test Your Knowledge!
+                        <ion-icon name="star"></ion-icon>
+                    </button>
+
+                </ion-card-content>
+            </ion-card>
+        </ion-slide>
+
+        <!-- Slide for the actual quiz questions -->
+        <ion-slide *ngFor="let question of questions; let i = index;">  <!-- Loops through all items in the array -->
+            <h3><strong>Question:</strong> {{i+1}}</h3>   <!-- Number of the question -->
+            <h3><strong>Time Remaining:</strong> {{ timeLeft }}</h3>
+
+            <!-- Answer card component -->
+            <answer-card [isFlipped]="question.answerCardFlipped">  <!-- Determines whenever back should be revealed or not -->
+                <div class="answer-card-front" [innerHTML]="question.answerCardFront"></div>    <!-- Front of the card -->
+                <div class="answer-card-back" [innerHTML]="question.answerCardBack"></div>  <!-- Back of the card -->
+            </answer-card>
+
+            <!-- Questions -->
+            <h3>{{question.questionText}}</h3>  <!-- Shows the question -->
+            <ion-list no-lines radio-group>
+                <ion-item *ngFor="let answer of question.answers; let i = index;">  <!-- Loops amount of options for answer -->
+                    <ion-label>{{i+1}}. {{answer.answer}}</ion-label>   <!-- Options to choose from -->
+                    <ion-radio (click)="selectAnswer(answer, question)" [checked]="answer.selected" [disabled]="hasAnswered"></ion-radio>   <!-- Disables button after answering -->
+                </ion-item>
+            </ion-list>
+
+        </ion-slide>
+
+        <!-- Last slide with user's score -->
+        <ion-slide class="centerlize">
+            <h2>Final Score: {{score}}</h2>
+            <button (click)="restartQuiz()" ion-button full color="danger">Start Again</button> <!-- Reloads the app -->
+            <button (click)="addUser(username, age, quiz, score)" ion-button full color="danger">Save Score</button>    <!-- Uploads the score, age, username, quiz type, picture to firebase -->
+        </ion-slide>
+
+    </ion-slides>
+
+</ion-content>

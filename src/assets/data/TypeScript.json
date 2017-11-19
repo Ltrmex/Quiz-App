@@ -1,0 +1,66 @@
+{
+    "questions": [
+ 
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "Microsoft",
+            "answerCardFlipped": false,
+            "questionText": "TypeScript is developed under?",
+            "answers": [
+                {"answer": "Microsoft", "correct": true, "selected": false},
+                {"answer": "Oracle", "correct": false, "selected": false},
+                {"answer": "Apple", "correct": false, "selected": false},
+                {"answer": "None of listed", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "superset",
+            "answerCardFlipped": false,
+            "questionText": "TypeScript is _ of JavaScript",
+            "answers": [
+                {"answer": "subset", "correct": false, "selected": false},
+                {"answer": "superset", "correct": true, "selected": false},
+                {"answer": "copy", "correct": false, "selected": false},
+                {"answer": "None of listed", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "All listed",
+            "answerCardFlipped": false,
+            "questionText": "TypeScript is influenced by?",
+            "answers": [
+                {"answer": "C#", "correct": false, "selected": false},
+                {"answer": "Java", "correct": false, "selected": false},
+                {"answer": "All listed", "correct": true, "selected": false},
+                {"answer": "JavaScript", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "open source",
+            "answerCardFlipped": false,
+            "questionText": "TypeScript is?",
+            "answers": [
+                {"answer": "restricted", "correct": false, "selected": false},
+                {"answer": "closed", "correct": false, "selected": false},
+                {"answer": "open source", "correct": true, "selected": false},
+                {"answer": "free", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "compile time",
+            "answerCardFlipped": false,
+            "questionText": "TypeScript provides type checking at?",
+            "answers": [
+                {"answer": "load time", "correct": false, "selected": false},
+                {"answer": "run time", "correct": false, "selected": false},
+                {"answer": "compile time", "correct": true, "selected": false},
+                {"answer": "none listed", "correct": false, "selected": false}
+            ]
+        }
+ 
+    ]
+}

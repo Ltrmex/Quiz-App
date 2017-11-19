@@ -1,0 +1,66 @@
+{
+    "questions": [
+ 
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "'<img>'",
+            "answerCardFlipped": false,
+            "questionText": "What is the tag to display picture?",
+            "answers": [
+                {"answer": "<picture>", "correct": false, "selected": false},
+                {"answer": "<image>", "correct": false, "selected": false},
+                {"answer": "<img>", "correct": true, "selected": false},
+                {"answer": "<src>", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "'<hr>'",
+            "answerCardFlipped": false,
+            "questionText": "Which tag inserts a line horizontally on your web page?",
+            "answers": [
+                {"answer": "<line>", "correct": false, "selected": false},
+                {"answer": "<hr>", "correct": true, "selected": false},
+                {"answer": "<line direction='horizontal'>", "correct": false, "selected": false},
+                {"answer": "<tr>", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "'<ul>'",
+            "answerCardFlipped": false,
+            "questionText": "How can you make a bulleted list?",
+            "answers": [
+                {"answer": "<list>", "correct": false, "selected": false},
+                {"answer": "<nl>", "correct": false, "selected": false},
+                {"answer": "<ul>", "correct": true, "selected": false},
+                {"answer": "<ol>", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "'<i>'",
+            "answerCardFlipped": false,
+            "questionText": "Choose the correct HTML tag to make a text italic: ",
+            "answers": [
+                {"answer": "<ii>", "correct": false, "selected": false},
+                {"answer": "<italics>", "correct": false, "selected": false},
+                {"answer": "<italic>", "correct": false, "selected": false},
+                {"answer": "<i>", "correct": true, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "id",
+            "answerCardFlipped": false,
+            "questionText": "Which attribute is used to name an element uniquely?",
+            "answers": [
+                {"answer": "class", "correct": false, "selected": false},
+                {"answer": "id", "correct": true, "selected": false},
+                {"answer": "dot", "correct": false, "selected": false},
+                {"answer": "all of these are right", "correct": false, "selected": false}
+            ]
+        }
+ 
+    ]
+}

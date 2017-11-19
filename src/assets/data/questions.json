@@ -1,0 +1,66 @@
+{
+    "questions": [
+ 
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "'reverse()'",
+            "answerCardFlipped": false,
+            "questionText": "Which built-in method reverses the order of the elements of an array?",
+            "answers": [
+                {"answer": "changeOrder(order)", "correct": false, "selected": false},
+                {"answer": "turnAround()", "correct": false, "selected": false},
+                {"answer": "reverse()", "correct": true, "selected": false},
+                {"answer": "sort(order)", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "32 bit",
+            "answerCardFlipped": false,
+            "questionText": "What is the size of int variable?",
+            "answers": [
+                {"answer": "32 bit", "correct": true, "selected": false},
+                {"answer": "6 bit", "correct": false, "selected": false},
+                {"answer": "16 bit", "correct": false, "selected": false},
+                {"answer": "64 bit", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "compiler",
+            "answerCardFlipped": false,
+            "questionText": "C programs are converted into machine language with the help of",
+            "answers": [
+                {"answer": "compiler", "correct": true, "selected": false},
+                {"answer": "editor", "correct": false, "selected": false},
+                {"answer": "operating system", "correct": false, "selected": false},
+                {"answer": "None of these", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "superset",
+            "answerCardFlipped": false,
+            "questionText": "TypeScript is _ of JavaScript",
+            "answers": [
+                {"answer": "subset", "correct": false, "selected": false},
+                {"answer": "superset", "correct": true, "selected": false},
+                {"answer": "copy", "correct": false, "selected": false},
+                {"answer": "None of listed", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "rewrite of Ionic 1",
+            "answerCardFlipped": false,
+            "questionText": "What is Ionic 2?",
+            "answers": [
+                {"answer": "rewrite of Ionic 1", "correct": true, "selected": false},
+                {"answer": "copy of Ionic 1", "correct": false, "selected": false},
+                {"answer": "upgrade of Ionic 1", "correct": false, "selected": false},
+                {"answer": "none listed", "correct": false, "selected": false}
+            ]
+        }
+ 
+    ]
+}

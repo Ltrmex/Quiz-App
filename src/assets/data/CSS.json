@@ -1,0 +1,66 @@
+{
+    "questions": [
+ 
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "in",
+            "answerCardFlipped": false,
+            "questionText": "Which of the following defines a measurement in inches?",
+            "answers": [
+                {"answer": "in", "correct": true, "selected": false},
+                {"answer": "mm", "correct": false, "selected": false},
+                {"answer": "pc", "correct": false, "selected": false},
+                {"answer": "pt", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "font-variant",
+            "answerCardFlipped": false,
+            "questionText": "Which property is used to create a small-caps effect?",
+            "answers": [
+                {"answer": "font-family", "correct": false, "selected": false},
+                {"answer": "font-variant", "correct": true, "selected": false},
+                {"answer": "font-weight", "correct": false, "selected": false},
+                {"answer": "font-style", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": ":visited",
+            "answerCardFlipped": false,
+            "questionText": "Which property of a anchor element signifies visited hyperlinks?",
+            "answers": [
+                {"answer": ":link", "correct": false, "selected": false},
+                {"answer": ":hover", "correct": false, "selected": false},
+                {"answer": ":visited", "correct": true, "selected": false},
+                {"answer": ":active", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "direction",
+            "answerCardFlipped": false,
+            "questionText": "Which property is used to set the text direction?",
+            "answers": [
+                {"answer": "letter-spacing", "correct": false, "selected": false},
+                {"answer": "word-spacing", "correct": false, "selected": false},
+                {"answer": "direction", "correct": true, "selected": false},
+                {"answer": "color", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "The Descendant Selector",
+            "answerCardFlipped": false,
+            "questionText": "Which selector matches a particular element only when it lies inside a particular element?",
+            "answers": [
+                {"answer": "The Universal Selector", "correct": false, "selected": false},
+                {"answer": "The Type Selector", "correct": false, "selected": false},
+                {"answer": "The Descendant Selector", "correct": true, "selected": false},
+                {"answer": "The Class Selector", "correct": false, "selected": false}
+            ]
+        }
+ 
+    ]
+}

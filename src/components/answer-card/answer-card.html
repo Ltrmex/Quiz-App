@@ -1,0 +1,10 @@
+<div class="flip-container" [class.flipped]="flipCard">
+    <div class="flipper">
+        <div class="front">
+            <ng-content select=".answer-card-front"></ng-content>   <!-- Front of the card where quiz type picture will be placed -->
+        </div>
+        <div class="back">
+            <ng-content select=".answer-card-back"></ng-content>    <!-- Back of the card where the answer will be located -->
+        </div>
+    </div>
+</div>

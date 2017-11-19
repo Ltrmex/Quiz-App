@@ -1,0 +1,66 @@
+{
+    "questions": [
+ 
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "compiler",
+            "answerCardFlipped": false,
+            "questionText": "C programs are converted into machine language with the help of",
+            "answers": [
+                {"answer": "compiler", "correct": true, "selected": false},
+                {"answer": "editor", "correct": false, "selected": false},
+                {"answer": "operating system", "correct": false, "selected": false},
+                {"answer": "None of these", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "float",
+            "answerCardFlipped": false,
+            "questionText": "Which variable cannot be used by switch-case statement?",
+            "answers": [
+                {"answer": "int", "correct": false, "selected": false},
+                {"answer": "float", "correct": true, "selected": false},
+                {"answer": "char", "correct": false, "selected": false},
+                {"answer": "All listed", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "'ceil(5.77)'",
+            "answerCardFlipped": false,
+            "questionText": "How to round-off a value “5.77” to 6.0?",
+            "answers": [
+                {"answer": "round-off(5.77)", "correct": false, "selected": false},
+                {"answer": "round-up(5.77)", "correct": false, "selected": false},
+                {"answer": "ceil(5.77)", "correct": true, "selected": false},
+                {"answer": "floor(5.77)", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "'printf()'",
+            "answerCardFlipped": false,
+            "questionText": "Function used for output is?",
+            "answers": [
+                {"answer": "display()", "correct": false, "selected": false},
+                {"answer": "type()", "correct": false, "selected": false},
+                {"answer": "printf()", "correct": true, "selected": false},
+                {"answer": "show()", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "'strcmp()'",
+            "answerCardFlipped": false,
+            "questionText": "Compare two strings with?",
+            "answers": [
+                {"answer": "strchr()", "correct": false, "selected": false},
+                {"answer": "strcat()", "correct": false, "selected": false},
+                {"answer": "strcmp()", "correct": true, "selected": false},
+                {"answer": "strcpy()", "correct": false, "selected": false}
+            ]
+        }
+ 
+    ]
+}

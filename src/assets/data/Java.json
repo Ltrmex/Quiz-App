@@ -1,0 +1,66 @@
+{
+    "questions": [
+ 
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "32 bit",
+            "answerCardFlipped": false,
+            "questionText": "What is the size of int variable?",
+            "answers": [
+                {"answer": "32 bit", "correct": true, "selected": false},
+                {"answer": "6 bit", "correct": false, "selected": false},
+                {"answer": "16 bit", "correct": false, "selected": false},
+                {"answer": "64 bit", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "Boolean",
+            "answerCardFlipped": false,
+            "questionText": "Which of the following is not a keyword in java?",
+            "answers": [
+                {"answer": "static", "correct": false, "selected": false},
+                {"answer": "Boolean", "correct": true, "selected": false},
+                {"answer": "void", "correct": false, "selected": false},
+                {"answer": "private", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "Local variable, instance variables and class variables",
+            "answerCardFlipped": false,
+            "questionText": "What kind of variables a class can consist of?",
+            "answers": [
+                {"answer": "class, instance variables", "correct": false, "selected": false},
+                {"answer": "class variables", "correct": false, "selected": false},
+                {"answer": "local, instance and class variables", "correct": true, "selected": false},
+                {"answer": "class, local variables", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "",
+            "answerCardFlipped": false,
+            "questionText": "What is an Interface?",
+            "answers": [
+                {"answer": "datatype", "correct": false, "selected": false},
+                {"answer": "concrete method", "correct": false, "selected": false},
+                {"answer": "collection of abstract methods", "correct": true, "selected": false},
+                {"answer": "abstract class", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "answerCardFront": "<img src='assets/images/question.jpg' />",
+            "answerCardBack": "",
+            "answerCardFlipped": false,
+            "questionText": "What is an applet?",
+            "answers": [
+                {"answer": "Java program that runs in a Web browser", "correct": false, "selected": false},
+                {"answer": "run time environment", "correct": false, "selected": false},
+                {"answer": "tool", "correct": true, "selected": false},
+                {"answer": "standalone java program", "correct": false, "selected": false}
+            ]
+        }
+ 
+    ]
+}
